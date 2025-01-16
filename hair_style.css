@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.5), pink),url(stlyle56.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+
+}
+#text{
+    position:fixed;
+}
+h1{
+    margin: 10px 0;
+    text-align: center; 
+    color: #d87093;
+    font: size 150px;;
+    font-family:'Kaushan Script', cursive;
+   
+}
+p{
+    margin: 10px 0;
+    text-align: center; 
+    color: palevioletred;
+    font-family:'Kaushan Script', cursive;
+    margin:auto;
+    font-size: 50px;
+    color: rgb(187, 32, 148);
+    font-weight: bold;
+    z-index: 1;
+    
+}
+.features-img img{
+    width: 25%;
+    /* border-radius: 4%; */
+    padding-right: 3%;
+    padding-left: 55%;
+    /* height: 34px; */
+    padding-top: 0%;
+}
+.box{
+    width: 80%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.yrt
+{
+   padding: 0 20px;
+   text-align:justify;
+   border-radius: 5px;
+   padding-right: 10%;
+   font-size: 30px;
+   color:#390e1d;
+}
+#con{
+    font-size: larger;
+    border: 2px solid pink;
+    border-radius: 4px;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: center;
+}
+#cons{
+    font-size: larger;
+    border: 2px solid pink;
+    border-radius: 4px;
+    width: 50%;
+    padding: 100px 30px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: center;
+}
+.button{
+    margin: 10px auto 0;
+}
+.button a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: white;
+    border: .5px solid palevioletred;
+    border-radius: 20%;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+
+}
+.button a span{
+    width:0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(212, 141, 153);
+    z-index: -1;
+    transition: 0.5s;
+}
+.button a:hover span{
+    width: 100%;
+    border-radius: 15px;
+
+}
+.button a:hover{
+    color: #000;
+}
+
